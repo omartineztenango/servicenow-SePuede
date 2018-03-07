@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">41bca4e2db2c93004dc3fe1ebf9619bf</sp_column>
+        <sp_widget display_value="IFrame">b249106adbe893004dc3fe1ebf9619f5</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-02 16:36:49</sys_created_on>
+        <sys_id>11cc2026db2c93004dc3fe1ebf9619ae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SePuede" source="x_196785_sepuede">8967b705db2013004dc3fe1ebf96196a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SePuede">8967b705db2013004dc3fe1ebf96196a</sys_scope>
+        <sys_update_name>sp_instance_11cc2026db2c93004dc3fe1ebf9619ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-02 16:40:55</sys_updated_on>
+        <title/>
+        <url>https://dev22703.service-now.com/sys_report_display.do?sysparm_report_id=9adcfbb5db6853004dc3fe1ebf961926</url>
+        <widget_parameters><![CDATA[{
+	"url": {
+		"value": "https://dev22703.service-now.com/sys_report_display.do?sysparm_report_id=9adcfbb5db6853004dc3fe1ebf961926",
+		"displayValue": "https://dev22703.service-now.com/sys_report_display.do?sysparm_report_id=9adcfbb5db6853004dc3fe1ebf961926"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=11cc2026db2c93004dc3fe1ebf9619ae"/>
+</record_update>

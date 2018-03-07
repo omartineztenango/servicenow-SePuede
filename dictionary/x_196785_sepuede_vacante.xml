@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Vacante" max_length="40" name="x_196785_sepuede_vacante" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Edad minima requerida" max_length="40" name="sepuede_edad" type="integer"/>
+        <element label="Edad maxima requerida" max_length="40" name="sepuede_edad_max" type="integer"/>
+        <element choice="1" display="true" label="Razon social de la empresa" max_length="32" name="sepuede_empresa" reference="core_company" type="reference">
+            <choice/>
+        </element>
+        <element choice="1" label="Escolaridad requerida" max_length="30" name="sepuede_escolaridad" type="string">
+            <choice>
+                <element label="Saber leer y escribir" sequence="0" value="sepuede_leer"/>
+                <element label="Primaria" sequence="1" value="sepuede_pri"/>
+                <element label="Secundaria / Sec. Técnica" sequence="2" value="sepuede_sec"/>
+                <element label="Prepa o vocacional" sequence="3" value="sepuede_prep"/>
+                <element label="Licenciatura" sequence="4" value="sepuede_lic"/>
+                <element label="Profesional técnico" sequence="5" value="sepuede_protec"/>
+                <element label="Carrera técnica" sequence="6" value="sepuede_carrtec"/>
+            </choice>
+        </element>
+        <element choice="2" label="Municipio donde se ubica la vacante" max_length="30" name="sepuede_municipio" type="string">
+            <choice/>
+        </element>
+        <element label="Plazas" max_length="40" name="sepuede_plazas" type="integer"/>
+        <element label="Salario ofrecido" max_length="20" name="sepuede_salario" type="price"/>
+        <element label="Nombre de la vacante" max_length="50" name="sepuede_vacante" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="sepuede_empresa"/>
+        </index>
+    </element>
+</database>

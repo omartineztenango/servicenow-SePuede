@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Empleadores" max_length="40" name="x_196785_sepuede_empleadores" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Plazas en total" max_length="40" name="plazas_en_total" type="integer"/>
+        <element label="Razón social de la empresa" mandatory="true" max_length="32" name="sepuede_empresa_empleadores" reference="core_company" type="reference"/>
+        <index name="index">
+            <element name="sepuede_empresa_empleadores"/>
+        </index>
+    </element>
+</database>

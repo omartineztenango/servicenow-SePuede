@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Vacante Reportes">bef83735db6853004dc3fe1ebf961982</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint>102</hint>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Vacante por edad minima</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query>https://dev22703.service-now.com/sys_report_display.do?sysparm_report_id=9adcfbb5db6853004dc3fe1ebf961926</query>
+        <report/>
+        <roles>x_196785_sepuede.vacante_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-28 23:53:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a4dbf75db6853004dc3fe1ebf9619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vacante por edad minima</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SePuede" source="x_196785_sepuede">8967b705db2013004dc3fe1ebf96196a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SePuede">8967b705db2013004dc3fe1ebf96196a</sys_scope>
+        <sys_update_name>sys_app_module_5a4dbf75db6853004dc3fe1ebf9619b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-28 23:53:29</sys_updated_on>
+        <timeline_page/>
+        <title>Vacante por edad minima</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name>Reporte por edad minima</window_name>
+    </sys_app_module>
+</record_update>

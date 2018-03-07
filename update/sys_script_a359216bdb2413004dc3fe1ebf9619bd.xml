@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>true</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_196785_sepuede_vacante</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Modificar moneda</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var vacante = new GlideRecord('x_196785_sepuede_vacante');
+	var idVacante;
+	var moneda = new GlideRecord('fx_price');
+	
+	//Se seleccionan los registros de la tabla
+	vacante.addNotNullQuery('sepuede_vacante');
+	vacante.query();
+	while(vacante.next()){
+		idVacante = vacante.sys_id; //se salva la sys_id del registro en turno
+		moneda.addQuery('id', idVacante); //se busca el registro "price" del id
+		moneda.query(); //se ejecuta el query
+		moneda.next(); //se apunta al registro encontrado
+		moneda.currency='MXN';
+		moneda.type='calculated';
+		moneda.update();
+		vacante.update();
+	}
+	/*vacante.addQuery('number',"VAC0000052");
+	vacante.query();
+	vacante.next();
+	idVacante = vacante.sys_id; //se salva la sys_id del registro en turno
+	moneda.addQuery('id', idVacante); //se busca el registro "price" del id
+	moneda.query(); //se ejecuta el query
+	moneda.next(); //se apunta al registro encontrado
+	moneda.currency='MXN';
+	moneda.type='calculated';
+	moneda.update();
+	//vacante.update();*/
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-05 23:36:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a359216bdb2413004dc3fe1ebf9619bd</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Modificar moneda</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SePuede" source="x_196785_sepuede">8967b705db2013004dc3fe1ebf96196a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SePuede">8967b705db2013004dc3fe1ebf96196a</sys_scope>
+        <sys_update_name>sys_script_a359216bdb2413004dc3fe1ebf9619bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-06 04:50:20</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=a359216bdb2413004dc3fe1ebf9619bd"/>
+</record_update>

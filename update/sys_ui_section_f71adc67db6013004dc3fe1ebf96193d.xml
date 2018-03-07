@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="f71adc67db6013004dc3fe1ebf96193d" sys_domain="global" table="x_196785_sepuede_solicitantes" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-05 18:13:21</sys_created_on>
+            <sys_id>7caf10abdb6013004dc3fe1ebf9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_196785_sepuede_solicitantes" sys_domain="global" view="Default view">f71adc67db6013004dc3fe1ebf96193d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-05 18:13:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-05 18:13:21</sys_created_on>
+            <sys_id>fcaf10abdb6013004dc3fe1ebf9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_196785_sepuede_solicitantes" sys_domain="global" view="Default view">f71adc67db6013004dc3fe1ebf96193d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-05 18:13:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>foto_del_solicitante</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-05 18:13:21</sys_created_on>
+            <sys_id>70af10abdb6013004dc3fe1ebf9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_196785_sepuede_solicitantes" sys_domain="global" view="Default view">f71adc67db6013004dc3fe1ebf96193d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-05 18:13:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-05 18:13:21</sys_created_on>
+            <sys_id>f0af10abdb6013004dc3fe1ebf9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_196785_sepuede_solicitantes" sys_domain="global" view="Default view">f71adc67db6013004dc3fe1ebf96193d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-05 18:13:21</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nombre_del_solicitante</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-05 18:13:21</sys_created_on>
+            <sys_id>74af10abdb6013004dc3fe1ebf9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_196785_sepuede_solicitantes" sys_domain="global" view="Default view">f71adc67db6013004dc3fe1ebf96193d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-05 18:13:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sepuede_n_mero_de_contacto</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-05 18:13:21</sys_created_on>
+            <sys_id>f4af10abdb6013004dc3fe1ebf9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_196785_sepuede_solicitantes" sys_domain="global" view="Default view">f71adc67db6013004dc3fe1ebf96193d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-05 18:13:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>solicitante_calle</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-05 18:13:21</sys_created_on>
+            <sys_id>78af10abdb6013004dc3fe1ebf9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_196785_sepuede_solicitantes" sys_domain="global" view="Default view">f71adc67db6013004dc3fe1ebf96193d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-05 18:13:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>solicitante_ciudad</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-05 18:13:21</sys_created_on>
+            <sys_id>f8af10abdb6013004dc3fe1ebf9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_196785_sepuede_solicitantes" sys_domain="global" view="Default view">f71adc67db6013004dc3fe1ebf96193d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-05 18:13:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>solicitante_estado</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-05 18:13:21</sys_created_on>
+            <sys_id>7caf10abdb6013004dc3fe1ebf9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_196785_sepuede_solicitantes" sys_domain="global" view="Default view">f71adc67db6013004dc3fe1ebf96193d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-05 18:13:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>solicitante_codigo_postal</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-05 18:13:21</sys_created_on>
+            <sys_id>fcaf10abdb6013004dc3fe1ebf9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_196785_sepuede_solicitantes" sys_domain="global" view="Default view">f71adc67db6013004dc3fe1ebf96193d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-05 18:13:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>solicitante_descripcion</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-05 18:13:21</sys_created_on>
+            <sys_id>70af10abdb6013004dc3fe1ebf9619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_196785_sepuede_solicitantes" sys_domain="global" view="Default view">f71adc67db6013004dc3fe1ebf96193d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-05 18:13:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sepuede_video_curriculum</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-05 18:13:21</sys_created_on>
+            <sys_id>f0af10abdb6013004dc3fe1ebf9619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_196785_sepuede_solicitantes" sys_domain="global" view="Default view">f71adc67db6013004dc3fe1ebf96193d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-05 18:13:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_196785_sepuede_solicitantes</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-05 17:49:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f71adc67db6013004dc3fe1ebf96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_196785_sepuede_solicitantes</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SePuede" source="x_196785_sepuede">8967b705db2013004dc3fe1ebf96196a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SePuede">8967b705db2013004dc3fe1ebf96196a</sys_scope>
+            <sys_update_name>sys_ui_section_f71adc67db6013004dc3fe1ebf96193d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-05 17:49:15</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

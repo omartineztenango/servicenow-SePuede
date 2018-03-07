@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Vacante Reportes">4c0bf775db6853004dc3fe1ebf961901</application>
+        <filter/>
+        <name>Vacante por edad máximo</name>
+        <order>103</order>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles/>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-01 00:01:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f32fbff5db6853004dc3fe1ebf96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vacante por edad máximo</sys_name>
+        <sys_package display_value="SePuede" source="x_196785_sepuede">8967b705db2013004dc3fe1ebf96196a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SePuede">8967b705db2013004dc3fe1ebf96196a</sys_scope>
+        <sys_update_name>sys_ui_module_f32fbff5db6853004dc3fe1ebf96194d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-01 00:01:15</sys_updated_on>
+        <table>x_196785_sepuede_vacante</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

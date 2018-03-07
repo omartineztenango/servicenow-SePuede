@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>danger</color>
+        <css/>
+        <glyph>bar-chart</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Un gráfica que muestra estadísticas acerca de los requerimientos de edad de las vacantes</short_description>
+        <size>md</size>
+        <sp_column display_value="1">25ade45edbe093004dc3fe1ebf9619dc</sp_column>
+        <sp_page display_value="reporte_por_edad_m_xima">e8711916db6493004dc3fe1ebf96193b</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-02 16:22:48</sys_created_on>
+        <sys_id>4c99a862db2c93004dc3fe1ebf9619f5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Reporte por edad máxima</sys_name>
+        <sys_package display_value="SePuede" source="x_196785_sepuede">8967b705db2013004dc3fe1ebf96196a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SePuede">8967b705db2013004dc3fe1ebf96196a</sys_scope>
+        <sys_update_name>sp_instance_link_4c99a862db2c93004dc3fe1ebf9619f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-02 16:42:48</sys_updated_on>
+        <title>Reporte por edad máxima</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=4c99a862db2c93004dc3fe1ebf9619f5"/>
+</record_update>

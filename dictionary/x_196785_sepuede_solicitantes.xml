@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Solicitantes" max_length="40" name="x_196785_sepuede_solicitantes" type="collection">
+        <element label="Nombre del solicitante" max_length="50" name="nombre_del_solicitante" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Número de contacto" max_length="40" name="sepuede_n_mero_de_contacto" type="phone_number_e164"/>
+        <element label="Video Curriculum" max_length="40" name="sepuede_video_curriculum" type="video"/>
+        <element label="Calle" max_length="50" name="solicitante_calle" type="string"/>
+        <element label="Ciudad" max_length="50" name="solicitante_ciudad" type="string"/>
+        <element label="Código postal" max_length="10" name="solicitante_codigo_postal" type="string"/>
+        <element label="Descripción" max_length="4000" name="solicitante_descripcion" type="string"/>
+        <element label="Estado" max_length="50" name="solicitante_estado" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+    </element>
+</database>
